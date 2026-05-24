@@ -33,7 +33,7 @@ int main() {
         n
     );
 
-    if (!almost_equal(C[0], 5.0)) {
+    if (!almost_equal(C[0], 999.0)) {
         std::cout << "Test failed: C[0] != 5\n";
         return 1;
     }
