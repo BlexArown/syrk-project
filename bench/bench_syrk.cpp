@@ -224,8 +224,9 @@ int main() {
     std::cout << "OPENBLAS_NUM_THREADS = "
               << (threads ? threads : "not set") << "\n";
 
-    run_float_test(3328, 3328);
-    run_double_test(3328, 3328);
+    run_float_test(512, 512);
+    run_double_test(512, 512);
 
     return 0;
+
 }
